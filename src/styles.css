@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-circle-wrapper {
+  padding-bottom: 30px;
+}
+
+.time-button-wrapper {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  height: 100px;
+  padding: 25px;
+}
+
+.time-button-wrapper button {
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  text-decoration: none;
+  font-weight: 300;
+  border: none;
+  color: #ffffff;
+  background-color: #4eb5f1;
+  text-align: center;
+  transition: all 0.2s;
+  outline: none;
+}
+
+.time-button-wrapper button:hover {
+  background-color: darkblue;
+  border: none;
+}
